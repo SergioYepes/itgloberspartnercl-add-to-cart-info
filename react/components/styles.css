@@ -1,0 +1,29 @@
+.container{
+    padding: 10px;
+}
+.container__items{
+    justify-content: space-between;
+    margin-bottom: 10px;
+    display: flex;
+}
+.container__item{
+    display: flex;
+    min-width: 500px;
+    align-items: center;
+    justify-content: space-around;
+}
+.container__item__text{
+    min-width: 100px;
+    padding: 10px 0;
+    inline-size: min-content;
+}
+.container__item__text::-webkit-scrollbar{
+    background-color: #0000;
+}
+.container__totalizer{
+    color: rgb(19, 138, 207);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
