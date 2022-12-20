@@ -1,16 +1,13 @@
-import React from 'react'
+import React from "react"
+import styles from "./styles.css"
 
-function ButtonGroup() {
+const ButtonGroup = () => {
   return (
-    <>
-        <div>
-            <a href='/'>checkout</a>
-        </div>
-        <div>
-            <button>Continua Comprando</button>
-            <a href='/'>ver carrito</a>
-        </div>
-    </>
+    <div className={`${styles.button__container}`}>
+      <a href="/checkout" className={`${styles.checkout}`}>Ir a pagar</a>
+      <a href="/" className={`${styles.continue}`}>Seguir comprando</a>
+      <a href="/cart" className={`${styles.cart}`}>Ver carrito</a>
+    </div>
   )
 }
 
