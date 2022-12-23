@@ -118,6 +118,7 @@ This will allow you to see the changes applied in real time, across the account 
 2. "vtex.order-manager"
 3. "vtex.product-context"
 
+
 ## Contributors
 1. Sergio Yepes Gualteros
 
